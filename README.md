@@ -1,7 +1,7 @@
 <h1 align="center">
-  <img src="docs/spacer.png" alt="" width="128" height="36" align="center">
+  <img src="docs/spacer.png" alt="" width="128" height="36" align="top">
   Eisenhower Post-its
-  <a href="https://www.buymeacoffee.com/phzmedeiros"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy me a coffee" width="128" height="36" align="center"></a>
+  <a href="https://www.buymeacoffee.com/phzmedeiros"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy me a coffee" width="128" height="36" align="top"></a>
 </h1>
 
 <p align="center">
