@@ -1,0 +1,26 @@
+{
+	"name": "eisenhower-postits",
+	"version": "1.0.0",
+	"description": "Organize your priorities as sticky notes on an Eisenhower matrix.",
+	"main": "main.js",
+	"scripts": {
+		"dev": "node esbuild.config.mjs",
+		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+		"version": "node version-bump.mjs && git add manifest.json versions.json"
+	},
+	"keywords": [
+		"obsidian",
+		"eisenhower",
+		"priorities",
+		"sticky-notes"
+	],
+	"author": "Pedro Henrique Medeiros dos Reis",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "^20.11.30",
+		"esbuild": "0.21.5",
+		"obsidian": "latest",
+		"tslib": "2.6.2",
+		"typescript": "5.4.5"
+	}
+}
