@@ -1,8 +1,4 @@
-<h1 align="center">
-  <img src="docs/spacer.png" alt="" width="128" height="36" align="top">
-  Eisenhower Post-its
-  <a href="https://www.buymeacoffee.com/phzmedeiros"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy me a coffee" width="128" height="36" align="top"></a>
-</h1>
+<h1 align="center">Eisenhower Post-its</h1>
 
 <p align="center">
   Turn any note into a glassy Eisenhower matrix and organize your priorities as sticky notes.<br>
@@ -14,6 +10,10 @@
   <a href="https://github.com/phzmedeiros/eisenhower-postits/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/phzmedeiros/eisenhower-postits/total?style=flat-square&color=7f6df2"></a>
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/github/license/phzmedeiros/eisenhower-postits?style=flat-square"></a>
   <img alt="Obsidian" src="https://img.shields.io/badge/Obsidian-1.4%2B-7f6df2?style=flat-square&logo=obsidian&logoColor=white">
+</p>
+
+<p align="center">
+  <a href="https://www.buymeacoffee.com/phzmedeiros"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy me a coffee" width="160" height="45"></a>
 </p>
 
 <picture>
