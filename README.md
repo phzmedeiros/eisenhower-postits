@@ -16,7 +16,29 @@
   <img alt="Obsidian" src="https://img.shields.io/badge/Obsidian-1.4%2B-7f6df2?style=flat-square&logo=obsidian&logoColor=white">
 </p>
 
-![Eisenhower Post-its in dark mode](docs/hero-dark.png)
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/phzmedeiros/eisenhower-postits/main/docs/light-theme.png">
+  <img alt="Eisenhower Post-its" src="https://raw.githubusercontent.com/phzmedeiros/eisenhower-postits/main/docs/hero-dark.png">
+</picture>
+
+<details>
+  <summary><b>Switch theme</b>: see the matrix in the other theme</summary>
+  <br>
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/phzmedeiros/eisenhower-postits/main/docs/hero-dark.png">
+    <img alt="Eisenhower Post-its in the other theme" src="https://raw.githubusercontent.com/phzmedeiros/eisenhower-postits/main/docs/light-theme.png">
+  </picture>
+</details>
+
+## Star history
+
+<a href="https://star-history.com/#phzmedeiros/eisenhower-postits&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=phzmedeiros/eisenhower-postits&type=Date&theme=dark">
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=phzmedeiros/eisenhower-postits&type=Date">
+    <img alt="Star history chart" src="https://api.star-history.com/svg?repos=phzmedeiros/eisenhower-postits&type=Date">
+  </picture>
+</a>
 
 ## Why
 
@@ -49,10 +71,6 @@ The colors follow the same logic. Urgency sets the temperature: warm colors for 
 ### Filter by tag
 
 ![Filtering by tag](docs/tag-filter.png)
-
-### Light theme
-
-![Light theme](docs/light-theme.png)
 
 ## Getting started
 
