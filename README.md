@@ -1,4 +1,7 @@
-<h1 align="center">Eisenhower Post-its</h1>
+<h1 align="center">
+  Eisenhower Post-its
+  <a href="https://www.buymeacoffee.com/phzmedeiros"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy me a coffee" height="36" align="center"></a>
+</h1>
 
 <p align="center">
   Turn any note into a glassy Eisenhower matrix and organize your priorities as sticky notes.<br>
@@ -134,7 +137,7 @@ npm run build
 
 ## Support
 
-Bug reports and ideas are welcome in [Issues](https://github.com/phzmedeiros/eisenhower-postits/issues). If the plugin helps you, a star on the repository helps other people find it.
+Bug reports and ideas are welcome in [Issues](https://github.com/phzmedeiros/eisenhower-postits/issues). If the plugin helps you, a star on the repository helps other people find it, and you can [buy me a coffee](https://www.buymeacoffee.com/phzmedeiros) to keep the project going.
 
 ## License
 
