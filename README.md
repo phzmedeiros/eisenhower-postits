@@ -14,26 +14,15 @@
 </p>
 
 <p align="center">
-  <a href="https://community.obsidian.md/plugins/eisenhower-postits"><img alt="Install in Obsidian" src="https://img.shields.io/badge/Install%20in%20Obsidian-7f6df2?style=for-the-badge&logo=obsidian&logoColor=white"></a>
+  <a href="https://community.obsidian.md/plugins/eisenhower-postits"><img alt="Install in Obsidian" src="https://img.shields.io/badge/Install%20in%20Obsidian-7f6df2?style=for-the-badge&logo=obsidian&logoColor=white" width="292"></a>
+  &nbsp;
+  <a href="https://www.buymeacoffee.com/phzmedeiros"><img alt="Buy me a coffee" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="150"></a>
 </p>
 
 <p align="center">
-  <a href="https://www.buymeacoffee.com/phzmedeiros"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy me a coffee" width="160" height="45"></a>
+  <img alt="Eisenhower Post-its in dark theme" src="https://raw.githubusercontent.com/phzmedeiros/eisenhower-postits/main/docs/hero-dark.png" width="49%">
+  <img alt="Eisenhower Post-its in light theme" src="https://raw.githubusercontent.com/phzmedeiros/eisenhower-postits/main/docs/light-theme.png" width="49%">
 </p>
-
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/phzmedeiros/eisenhower-postits/main/docs/light-theme.png">
-  <img alt="Eisenhower Post-its" src="https://raw.githubusercontent.com/phzmedeiros/eisenhower-postits/main/docs/hero-dark.png">
-</picture>
-
-<details>
-  <summary><b>Switch theme</b>: see the matrix in the other theme</summary>
-  <br>
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/phzmedeiros/eisenhower-postits/main/docs/hero-dark.png">
-    <img alt="Eisenhower Post-its in the other theme" src="https://raw.githubusercontent.com/phzmedeiros/eisenhower-postits/main/docs/light-theme.png">
-  </picture>
-</details>
 
 ## Star history
 
