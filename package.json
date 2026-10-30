@@ -1,6 +1,6 @@
 {
 	"name": "eisenhower-postits",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Organize your priorities as sticky notes on an Eisenhower matrix.",
 	"main": "main.js",
 	"scripts": {

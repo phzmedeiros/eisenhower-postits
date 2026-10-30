@@ -493,15 +493,31 @@ body.is-mobile .eisenhower-postits .ep-note-actions {
 	opacity: 1;
 }
 
+body.is-mobile .eisenhower-postits .ep-note-body,
+.eisenhower-postits .ep-note.is-done .ep-note-body {
+	padding-right: 2.75rem;
+}
+
 @media (max-width: 700px) {
 	.eisenhower-postits {
-		height: auto;
+		overflow-y: auto;
 		padding: var(--size-4-3);
 	}
 
 	.eisenhower-postits .ep-board {
+		flex: none;
 		grid-template-columns: minmax(0, 1fr);
 		grid-template-rows: none;
+	}
+
+	.eisenhower-postits .ep-list {
+		flex: none;
+		overflow: visible;
+	}
+
+	.eisenhower-postits .ep-composer {
+		position: static;
+		width: auto;
 	}
 
 	.eisenhower-postits .ep-board > .ep-do,
