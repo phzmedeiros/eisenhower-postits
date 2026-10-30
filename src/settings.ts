@@ -1,4 +1,4 @@
-import { App, PluginSettingTab, Setting } from "obsidian";
+import { App, PluginSettingTab, SettingDefinitionItem } from "obsidian";
 import type EisenhowerPostitsPlugin from "./main";
 
 export class EisenhowerSettingTab extends PluginSettingTab {
@@ -6,28 +6,38 @@ export class EisenhowerSettingTab extends PluginSettingTab {
 		super(app, plugin);
 	}
 
-	display(): void {
-		const { containerEl } = this;
+	getSettingDefinitions(): SettingDefinitionItem[] {
 		const strings = this.plugin.strings;
-		containerEl.empty();
+		return [
+			{
+				name: strings.folderSetting,
+				desc: strings.folderSettingDesc,
+				aliases: ["folder", "pasta", "location"],
+				control: { type: "folder", key: "newBoardFolder", includeRoot: true },
+			},
+			{
+				name: strings.showCompleted,
+				desc: strings.showCompletedDesc,
+				aliases: ["completed", "done", "concluídos"],
+				control: { type: "toggle", key: "showCompleted" },
+			},
+		];
+	}
 
-		new Setting(containerEl)
-			.setName(strings.folderSetting)
-			.setDesc(strings.folderSettingDesc)
-			.addText((text) =>
-				text.setValue(this.plugin.settings.newBoardFolder).onChange(async (value) => {
-					this.plugin.settings.newBoardFolder = value.trim();
-					await this.plugin.saveSettings();
-				})
-			);
+	getControlValue(key: string): unknown {
+		if (key === "newBoardFolder") return this.plugin.settings.newBoardFolder;
+		if (key === "showCompleted") return this.plugin.settings.showCompleted;
+		return undefined;
+	}
 
-		new Setting(containerEl)
-			.setName(strings.showCompleted)
-			.setDesc(strings.showCompletedDesc)
-			.addToggle((toggle) =>
-				toggle
-					.setValue(this.plugin.settings.showCompleted)
-					.onChange((value) => this.plugin.setShowCompleted(value))
-			);
+	async setControlValue(key: string, value: unknown): Promise<void> {
+		if (key === "showCompleted") {
+			this.plugin.setShowCompleted(value === true);
+			return;
+		}
+		if (key === "newBoardFolder") {
+			this.plugin.settings.newBoardFolder = typeof value === "string" ? value.trim() : "";
+			await this.plugin.saveSettings();
+		}
 	}
 }

@@ -1,3 +1,4 @@
+import { getLanguage } from "obsidian";
 import { QuadrantId } from "./types";
 
 export interface Strings {
@@ -153,6 +154,6 @@ const pt: Strings = {
 };
 
 export function getStrings(): Strings {
-	const language = window.localStorage.getItem("language") ?? "en";
+	const language = getLanguage();
 	return language.toLowerCase().startsWith("pt") ? pt : en;
 }

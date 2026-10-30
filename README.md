@@ -9,7 +9,7 @@
   <a href="https://github.com/phzmedeiros/eisenhower-postits/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/phzmedeiros/eisenhower-postits?style=flat-square&color=7f6df2"></a>
   <a href="https://github.com/phzmedeiros/eisenhower-postits/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/phzmedeiros/eisenhower-postits/total?style=flat-square&color=7f6df2"></a>
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/github/license/phzmedeiros/eisenhower-postits?style=flat-square"></a>
-  <img alt="Obsidian" src="https://img.shields.io/badge/Obsidian-1.4%2B-7f6df2?style=flat-square&logo=obsidian&logoColor=white">
+  <img alt="Obsidian" src="https://img.shields.io/badge/Obsidian-1.13%2B-7f6df2?style=flat-square&logo=obsidian&logoColor=white">
 </p>
 
 <p align="center">
@@ -150,6 +150,7 @@ Plugin para o Obsidian que transforma uma nota numa matriz de Eisenhower com pos
 npm install
 npm run dev
 npm run build
+npm run lint
 ```
 
 `npm run dev` rebuilds `main.js` on every change. Point it at a test vault by cloning the repository into `<vault>/.obsidian/plugins/eisenhower-postits/`.
