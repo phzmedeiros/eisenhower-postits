@@ -53,7 +53,7 @@ The colors follow the same logic. Urgency sets the temperature: warm colors for 
 
 ## Features
 
-- **A matrix is a note.** Each matrix is a regular markdown file in your vault, so it works with search, links, backlinks, sync and version control.
+- **A matrix is a note.** Each matrix is a regular Markdown file in your vault, so it works with search, links, backlinks, sync and version control.
 - **Answer two questions, get the right quadrant.** The **Add** button asks *Urgent?* and *Important?* and drops the sticky note in the right place.
 - **Drag and drop** between quadrants and to reorder inside a quadrant.
 - **Tags as chips.** Write `#client` or `@team` in a sticky note and it becomes a chip. Click a chip, or use **Filter by tag**, to focus on one context.
@@ -87,13 +87,13 @@ The colors follow the same logic. Urgency sets the temperature: warm colors for 
 | Sticky note | Click to edit. **Enter** saves, **Shift+Enter** adds a new line, **Esc** cancels |
 | Sticky note | Right-click or **⋮** to edit, complete, move or delete |
 | Quadrant title | Double-click to rename |
-| Command palette | **Add sticky note**, **Add sticky note to: Do now** and the other quadrants, **Toggle between matrix and markdown** |
+| Command palette | **Add sticky note**, **Add sticky note to: Do now** and the other quadrants, **Toggle between matrix and Markdown** |
 
 All commands can be bound to hotkeys in **Settings → Hotkeys**.
 
 ## File format
 
-A matrix is plain markdown with the `eisenhower-plugin` property. Each quadrant is a level 2 heading, in this order: do, schedule, delegate, eliminate. Each sticky note is a task item.
+A matrix is plain Markdown with the `eisenhower-plugin` property. Each quadrant is a level 2 heading, in this order: do, schedule, delegate, eliminate. Each sticky note is a task item.
 
 ```markdown
 ---
@@ -117,7 +117,7 @@ eisenhower-plugin: board
 ## Eliminate
 ```
 
-You can switch to the raw markdown at any time with the document icon at the top of the matrix. Other properties in the frontmatter are kept. Text outside the task items is not kept when the matrix saves.
+You can switch to the raw Markdown at any time with the document icon at the top of the matrix. Other properties in the frontmatter are kept. Text outside the task items is not kept when the matrix saves.
 
 ## Settings
 

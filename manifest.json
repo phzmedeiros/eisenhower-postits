@@ -1,7 +1,7 @@
 {
 	"id": "eisenhower-postits",
 	"name": "Eisenhower Post-its",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"minAppVersion": "1.4.0",
 	"description": "Create Eisenhower matrices as notes and organize your priorities as sticky notes you drag between Do, Schedule, Delegate and Eliminate.",
 	"author": "Pedro Henrique Medeiros dos Reis",
