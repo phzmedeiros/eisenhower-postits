@@ -32,11 +32,11 @@
 
 ## Star history
 
-<a href="https://star-history.com/#phzmedeiros/eisenhower-postits&Date">
+<a href="https://www.star-history.com/?repos=phzmedeiros%2Feisenhower-postits&type=date&logscale&releases&legend=bottom-right">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=phzmedeiros/eisenhower-postits&type=Date&theme=dark">
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=phzmedeiros/eisenhower-postits&type=Date">
-    <img alt="Star history chart" src="https://api.star-history.com/svg?repos=phzmedeiros/eisenhower-postits&type=Date">
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=phzmedeiros/eisenhower-postits&type=date&theme=dark&logscale&legend=bottom-right">
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=phzmedeiros/eisenhower-postits&type=date&logscale&legend=bottom-right">
+    <img alt="Star history chart" src="https://api.star-history.com/chart?repos=phzmedeiros/eisenhower-postits&type=date&logscale&legend=bottom-right">
   </picture>
 </a>
 
