@@ -303,8 +303,8 @@ body.theme-light .eisenhower-postits .ep-note {
 	opacity: 0.5;
 }
 
-.eisenhower-postits .ep-note.is-done .ep-note-body {
-	text-decoration: line-through;
+.eisenhower-postits .ep-note-strike {
+	display: block;
 }
 
 .eisenhower-postits .ep-note-body {
@@ -326,7 +326,6 @@ body.theme-light .eisenhower-postits .ep-note {
 
 .eisenhower-postits .ep-note-body a {
 	color: inherit;
-	text-decoration-color: rgba(var(--ep-color), 0.6);
 }
 
 .eisenhower-postits .ep-note-tags {

@@ -411,8 +411,9 @@ export class BoardView extends TextFileView {
 		card.draggable = true;
 		const parts = extractTags(note.text);
 		const body = card.createDiv({ cls: "ep-note-body" });
+		const content = note.done ? body.createEl("s", { cls: "ep-note-strike" }) : body;
 		if (this.renderScope && parts.body) {
-			void MarkdownRenderer.render(this.app, parts.body, body, this.file?.path ?? "", this.renderScope);
+			void MarkdownRenderer.render(this.app, parts.body, content, this.file?.path ?? "", this.renderScope);
 		}
 		body.addEventListener("click", (event) => {
 			if ((event.target as HTMLElement).closest("a")) return;
