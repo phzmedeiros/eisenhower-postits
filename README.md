@@ -1,7 +1,7 @@
 <h1 align="center">Eisenhower Post-its</h1>
 
 <p align="center">
-  Turn any note into a glassy Eisenhower matrix and organize your priorities as sticky notes.<br>
+  An Obsidian plugin that turns any note into a glassy Eisenhower matrix and organizes your priorities as sticky notes.<br>
   One matrix for work, one for college, one for your side project.
 </p>
 
@@ -9,7 +9,12 @@
   <a href="https://github.com/phzmedeiros/eisenhower-postits/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/phzmedeiros/eisenhower-postits?style=flat-square&color=7f6df2"></a>
   <a href="https://github.com/phzmedeiros/eisenhower-postits/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/phzmedeiros/eisenhower-postits/total?style=flat-square&color=7f6df2"></a>
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/github/license/phzmedeiros/eisenhower-postits?style=flat-square"></a>
-  <img alt="Obsidian" src="https://img.shields.io/badge/Obsidian-1.13%2B-7f6df2?style=flat-square&logo=obsidian&logoColor=white">
+  <a href="https://community.obsidian.md/plugins/eisenhower-postits"><img alt="Obsidian community plugin" src="https://img.shields.io/badge/Obsidian-community%20plugin-7f6df2?style=flat-square&logo=obsidian&logoColor=white"></a>
+  <img alt="Requires Obsidian 1.13 or later" src="https://img.shields.io/badge/requires-Obsidian%201.13%2B-7f6df2?style=flat-square">
+</p>
+
+<p align="center">
+  <a href="https://community.obsidian.md/plugins/eisenhower-postits"><img alt="Install in Obsidian" src="https://img.shields.io/badge/Install%20in%20Obsidian-7f6df2?style=for-the-badge&logo=obsidian&logoColor=white"></a>
 </p>
 
 <p align="center">
@@ -42,7 +47,7 @@
 
 ## Why
 
-The Eisenhower matrix splits work by two questions: **is it urgent?** and **is it important?** The answers tell you what to do with each task.
+The Eisenhower matrix, also known as the urgent-important matrix or priority matrix, splits work by two questions: **is it urgent?** and **is it important?** The answers tell you what to do with each task.
 
 | | Urgent | Not urgent |
 | --- | --- | --- |
@@ -128,9 +133,9 @@ You can switch to the raw Markdown at any time with the document icon at the top
 
 ## Installation
 
-### From Community plugins
+### From the Obsidian Community directory
 
-Search for **Eisenhower Post-its** in **Settings → Community plugins → Browse**.
+Open the [Eisenhower Post-its page in the Obsidian Community directory](https://community.obsidian.md/plugins/eisenhower-postits) and select **Add to Obsidian**, or search for **Eisenhower Post-its** in **Settings → Community plugins → Browse**.
 
 ### Manually
 
@@ -140,7 +145,7 @@ Search for **Eisenhower Post-its** in **Settings → Community plugins → Brows
 
 ## Em português
 
-Plugin para o Obsidian que transforma uma nota numa matriz de Eisenhower com post-its de vidro. Crie uma matriz para cada área da sua vida: trabalho, faculdade, empreendimento. O botão **Adicionar** pergunta *Urgente?* e *Importante?* e já coloca o post-it no quadrante certo. A interface fica em português quando o Obsidian está em português.
+Plugin para o Obsidian que transforma uma nota numa matriz de Eisenhower com post-its de vidro. Crie uma matriz para cada área da sua vida: trabalho, faculdade, empreendimento. O botão **Adicionar** pergunta *Urgente?* e *Importante?* e já coloca o post-it no quadrante certo. A interface fica em português quando o Obsidian está em português. Instale pela [página oficial no diretório da comunidade do Obsidian](https://community.obsidian.md/plugins/eisenhower-postits).
 
 ![Interface em português](docs/portugues.png)
 
